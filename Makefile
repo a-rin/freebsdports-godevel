@@ -1,4 +1,4 @@
-# Created by: Devon H. O'Dell <devon.odell@gmail.com>
+# Created by: Devon H. O'Dell <devon.odell@gmail.com> modified by <a.rin.mix@gmail.com>
 # $FreeBSD: head/lang/go/Makefile 473326 2018-06-25 15:59:49Z adamw $
 
 PORTNAME=	go-devel
