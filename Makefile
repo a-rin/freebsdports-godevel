@@ -1,8 +1,8 @@
-# Created by: Devon H. O'Dell <devon.odell@gmail.com> modified by <a.rin.mix@gmail.com>
+# Created by: Devon H. O'Dell <devon.odell@gmail.com>
 # $FreeBSD: head/lang/go/Makefile 473326 2018-06-25 15:59:49Z adamw $
 
 PORTNAME=	go-devel
-PORTVERSION=	1.11beta1
+PORTVERSION=	1.11beta2
 CATEGORIES=	lang
 MASTER_SITES=	https://dl.google.com/go/
 DISTNAME=	go${PORTVERSION}.src
@@ -13,7 +13,7 @@ COMMENT=	Go programming language
 LICENSE=	BSD3CLAUSE
 
 BUILD_DEPENDS=	go14>=1.4:lang/go14
-CONFLICTS=	go
+CONFLICTS=	lang/go
 
 USES=		shebangfix
 SHEBANG_LANG=	sh perl
